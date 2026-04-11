@@ -8,11 +8,10 @@ export function RecipeSection() {
       <div className="max-w-5xl mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-4" suppressHydrationWarning>
-            {"最大の醍醐味:"}
-            <br className="md:hidden" />
-            <span className="text-red-700">{"「もやしの入れ方」"}</span>
-            {"ひとつで変わる2つの顔"}
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-4">
+            &#26368;&#22823;&#12398;&#37196;&#37070;&#21618;&#12288;
+            <span className="text-red-700">&#12300;&#12418;&#12420;&#12375;&#12398;&#20837;&#12428;&#26041;&#12301;</span>
+            &#12072;&#12392;&#12064;&#12391;&#22793;&#21270;&#12377;&#12427;&#39164;&#24863;
           </h2>
           <p className="text-gray-700 text-lg">
             &#12381;&#12398;&#26085;&#12398;&#27671;&#20998;&#12391;&#12289;&#12354;&#12394;&#12383;&#12384;&#12369;&#12398;&#26368;&#39640;&#12398;&#19968;&#26579;&#12434;
