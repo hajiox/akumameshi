@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_JP } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { GoogleAnalytics } from '@/components/google-analytics'
 import './globals.css'
 
 const notoSansJP = Noto_Sans_JP({ 
@@ -49,20 +50,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon.png', type: 'image/png', sizes: '192x192' },
+      { url: '/favicon.png', type: 'image/png' },
     ],
-    apple: '/apple-icon.png',
+    apple: '/favicon.png',
+    shortcut: '/favicon.png',
   },
   robots: {
     index: true,
@@ -82,6 +75,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={`${notoSansJP.variable} font-sans antialiased`}>
+        <GoogleAnalytics />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
