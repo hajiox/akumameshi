@@ -6,8 +6,8 @@ export function HeroSection() {
       {/* Jiro Inspire Section */}
       <div className="relative w-full max-w-6xl mx-auto px-4 py-4">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_rrkn4trrkn4trrkn-41PjE7AIniBnhn4Idoa8QjnyOUK8op.jpg"
-          alt="悪魔のBUTAめし - 二郎インスパイア＋炊き込みご飯"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_8o7pok8o7pok8o7p-IS0d2Ra8YfxtAG1cR9HJEx2PDc7qfq.jpg"
+          alt="悪魔のBUTAめし - 二郎インスパイア＋炊き込みご飯 ニンニク・アブラ増々！理性を破壊する悪魔的背徳感"
           width={1200}
           height={800}
           className="w-full h-auto rounded-lg"
