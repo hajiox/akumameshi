@@ -14,8 +14,8 @@ export function RecipeSection() {
             <span className="text-red-700">{"「もやしの入れ方」"}</span>
             {"ひとつで変わる2つの顔"}
           </h2>
-          <p className="text-gray-700 text-lg" suppressHydrationWarning>
-            {"\u305D\u306E\u65E5\u306E\u6C17\u5206\u3067\u3001\u3042\u306A\u305F\u3060\u3051\u306E\u6700\u9AD8\u306E\u4E00\u676F\u3092"}
+          <p className="text-gray-700 text-lg">
+            &#12381;&#12398;&#26085;&#12398;&#27671;&#20998;&#12391;&#12289;&#12354;&#12394;&#12383;&#12384;&#12369;&#12398;&#26368;&#39640;&#12398;&#19968;&#26579;&#12434;
           </p>
         </div>
 
