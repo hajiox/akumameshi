@@ -15,6 +15,17 @@ export function ShippingSection() {
           />
         </div>
 
+        {/* 注意書き - 炊飯器のお手入れ方法 */}
+        <div className="relative w-full max-w-6xl mx-auto flex justify-center">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E6%B3%A8%E6%84%8F%E6%9B%B8%E3%81%8D-avY2UC1B947oWrfKCzxxNarZL0s1d5.jpg"
+            alt="【必見！】ニンニク＆豚の旨味に感動した炊飯器のお手入れ術 - アルコールで拭く、早炊きスプラッシュ"
+            width={1200}
+            height={1200}
+            className="w-full md:w-[90%] h-auto rounded-lg"
+          />
+        </div>
+
         {/* 送料無料・即日発送バナー横並び */}
         <div className="grid grid-cols-2 gap-4 max-w-3xl mx-auto">
           {/* 送料無料バナー */}

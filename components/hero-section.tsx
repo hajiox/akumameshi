@@ -15,11 +15,11 @@ export function HeroSection() {
         />
       </div>
 
-      {/* 自社謹製チャーシュー使用 */}
+      {/* 権威性 - Yahoo!ランキング1位獲得 */}
       <div className="relative w-full max-w-6xl mx-auto px-4 py-4 flex justify-center">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_ccuku3ccuku3ccuk.jfif-XxcDx5NljG7uzg8AZy63qfgRBl1FlT.jpeg"
-          alt="自社謹製チャーシュー使用 - 一番人気商品を使用"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E6%A8%A9%E5%A8%81%E6%80%A7-OdnqfHELqd0iKwE4PrCQpzttYUA26k.jpeg"
+          alt="Yahoo!ショッピングランキング1位獲得 - 自慢の自家製チャーシューを使用、これが至高の商品です、各ECサイトでランキング上位を獲得"
           width={1200}
           height={1200}
           className="w-full md:w-[90%] h-auto rounded-lg"
