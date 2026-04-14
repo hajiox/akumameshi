@@ -18,8 +18,8 @@ export function RecipeSection() {
           </p>
         </div>
 
-        {/* Recipe Cards - Side by side */}
-        <div className="grid grid-cols-2 gap-3 md:gap-6">
+        {/* Recipe Cards - Stacked on mobile, side by side on PC */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-6">
           {/* 作り方1: もやし先入れ味染み */}
           <div className="flex justify-center">
             <Image
