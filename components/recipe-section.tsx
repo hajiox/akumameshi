@@ -23,8 +23,8 @@ export function RecipeSection() {
           {/* 作り方1: もやし先入れ味染み */}
           <div className="flex justify-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_rkw8xqrkw8xqrkw8-rd0C0un7MMRl8klghaygmLAWjCGWDT.jpg"
-              alt="その①【もやし先入れ味染み】お米2合、水1.8合、タレ＆具材投入、もやし250g先入れ、炊飯ボタンON、完成"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%BD%9C%E3%82%8A%E6%96%B9%EF%BC%92-BCeIk74LblO2BsmXHp34chZJ33zlrc.jpg"
+              alt="悪魔のBUTAめし【作り方① もやし先入れ味染み】お米2合・水1.8合、本製品投入、もやし250gドサッ、炊飯ボタンポチッ・完成"
               width={1200}
               height={1200}
               className="w-full md:w-[90%] h-auto rounded-lg shadow-lg"
@@ -34,8 +34,8 @@ export function RecipeSection() {
           {/* 作り方2: もやし後入れシャキシャキ */}
           <div className="flex justify-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_h6jay3h6jay3h6ja-G9159eVL80Htg4teJg9J7DUTCeLhag.jpg"
-              alt="その②【もやし後入れシャキシャキ】もやし250gを耐熱容器に、電子レンジ600W90秒、お米2合、水1.8合、本製品を入れて炊飯、蒸らして完成"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%BD%9C%E3%82%8A%E6%96%B91-kC3dh5WXXkWPcKsAlxmeJzkrC0XOCX.jpg"
+              alt="悪魔のBUTAめし【作り方② もやし後入れシャキシャキ】もやし250g耐熱ボウルにレンジ600W90秒、お米2合・水・悪魔の素投入、炊飯開始、炊き上がりにもやし乗せ10分蒸らして完成"
               width={1200}
               height={1200}
               className="w-full md:w-[90%] h-auto rounded-lg shadow-lg"
