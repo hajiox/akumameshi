@@ -18,8 +18,8 @@ export function RecipeSection() {
           </p>
         </div>
 
-        {/* Recipe Cards - Stacked for mobile readability */}
-        <div className="flex flex-col gap-8">
+        {/* Recipe Cards - Side by side */}
+        <div className="grid grid-cols-2 gap-3 md:gap-6">
           {/* 作り方1: もやし先入れ味染み */}
           <div className="flex justify-center">
             <Image
@@ -27,7 +27,7 @@ export function RecipeSection() {
               alt="その①【もやし先入れ味染み】お米2合、水1.8合の目盛りまで、本製品を投入、もやし250g先入れ、炊飯ボタンON、完成！味染みもやしの炊き込みご飯"
               width={1200}
               height={1200}
-              className="w-full md:w-[90%] h-auto rounded-lg shadow-lg"
+              className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
 
@@ -38,7 +38,7 @@ export function RecipeSection() {
               alt="その②【もやし後入れシャキシャキ】もやし250gを耐熱容器に・電子レンジ600W約90秒、お米2合（3合でも良い）・水1.8合固めに炊く・本製品投入、炊き上がったら加熱したもやしを10分蒸らして完成"
               width={1200}
               height={1200}
-              className="w-full md:w-[90%] h-auto rounded-lg shadow-lg"
+              className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
