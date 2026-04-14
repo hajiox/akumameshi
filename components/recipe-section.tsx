@@ -18,43 +18,27 @@ export function RecipeSection() {
           </p>
         </div>
 
-        {/* Recipe Cards - Side by Side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Recipe Cards - Stacked for mobile readability */}
+        <div className="flex flex-col gap-8">
           {/* 作り方1: もやし先入れ味染み */}
-          <div className="bg-[#c9b896] rounded-lg overflow-hidden shadow-lg border-4 border-amber-700">
-            <div className="p-3 bg-amber-800 text-white">
-              <h3 className="text-lg font-bold text-center" suppressHydrationWarning>
-                {"パターンA: 一緒に炊き込む"}
-              </h3>
-              <p className="text-center text-amber-200 text-xs mt-1" suppressHydrationWarning>
-                {"味が染み込んだクタッと食感"}
-              </p>
-            </div>
+          <div className="flex justify-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%BD%9C%E3%82%8A%E6%96%B9%EF%BC%92-Ik9NTRfXcAaE3mmIkYIVlSFfGW5Xfl.jpg"
-              alt="悪魔のBUTAめし 作り方① もやし先入れ味染み"
-              width={600}
-              height={600}
-              className="w-full h-auto"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_rkw8xqrkw8xqrkw8-rd0C0un7MMRl8klghaygmLAWjCGWDT.jpg"
+              alt="その①【もやし先入れ味染み】お米2合、水1.8合、タレ＆具材投入、もやし250g先入れ、炊飯ボタンON、完成"
+              width={1200}
+              height={1200}
+              className="w-full md:w-[90%] h-auto rounded-lg shadow-lg"
             />
           </div>
 
           {/* 作り方2: もやし後入れシャキシャキ */}
-          <div className="bg-[#c9b896] rounded-lg overflow-hidden shadow-lg border-4 border-amber-700">
-            <div className="p-3 bg-amber-800 text-white">
-              <h3 className="text-lg font-bold text-center" suppressHydrationWarning>
-                {"パターンB: 後から混ぜる"}
-              </h3>
-              <p className="text-center text-amber-200 text-xs mt-1" suppressHydrationWarning>
-                {"シャキシャキ食感のアクセント"}
-              </p>
-            </div>
+          <div className="flex justify-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%BD%9C%E3%82%8A%E6%96%B91-X5MDQdTzQ0H4KEpvSIFBg9qynmQDvK.jpg"
-              alt="悪魔のBUTAめし 作り方② もやし後入れシャキシャキ"
-              width={600}
-              height={600}
-              className="w-full h-auto"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_h6jay3h6jay3h6ja-G9159eVL80Htg4teJg9J7DUTCeLhag.jpg"
+              alt="その②【もやし後入れシャキシャキ】もやし250gを耐熱容器に、電子レンジ600W90秒、お米2合、水1.8合、本製品を入れて炊飯、蒸らして完成"
+              width={1200}
+              height={1200}
+              className="w-full md:w-[90%] h-auto rounded-lg shadow-lg"
             />
           </div>
         </div>
