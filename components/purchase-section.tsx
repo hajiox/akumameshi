@@ -25,7 +25,7 @@ export function PurchaseSection() {
             href="https://store.shopping.yahoo.co.jp/aizubrandhall/4571318635247.html" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[47%] md:w-full mx-auto"
+            className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[67%] md:mx-auto mx-auto"
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyyahoo-KmL0yszRmx203LjFRJo1wy4m5m4esP.png"
@@ -46,7 +46,7 @@ export function PurchaseSection() {
             href="https://item.rakuten.co.jp/aizubrandhall/4571318635247/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[47%] md:w-full mx-auto"
+            className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[67%] md:mx-auto mx-auto"
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyrakutenn-TUtoGDzEBNh1kKGVO2ceuwOhtTzJ9S.png"
@@ -67,7 +67,7 @@ export function PurchaseSection() {
             href="https://www.amazon.co.jp/dp/B0GWCVHS8N" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[47%] md:w-full mx-auto"
+            className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[67%] md:mx-auto mx-auto"
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyAmazon-pZqZL58v1PHhI6H488EfZgGNA7zX3M.png"
