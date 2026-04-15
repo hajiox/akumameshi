@@ -5,43 +5,43 @@ import Image from "next/image"
 const reviews = [
   {
     rating: 5,
-    title: "まさに神豚！家でこの背徳感が味わえるとは…",
-    content: "パッケージを開けた瞬間にガツンとくるニンニクとアブラの香り。そして何より150gのチャーシューの塊にテンションが爆上がりしました！2合で炊きましたが、炊きあがりにしゃもじを入れると肉がホロホロ崩れて最高です。別茹でしたモヤシとキャベツ、さらに「追い刻みニンニク」と卵黄を乗せたら完全にお店の味になりました。リピ確定です！"
+    title: "家でこの背徳感が味わえるとは…",
+    content: "パッケージを開けた瞬間にガツンとくるニンニクとアブラの香り。そして何より150gのチャーシューの塊が最高です。炊きあがりにしゃもじを入れると肉がホロホロ崩れました。"
   },
   {
     rating: 5,
-    title: "肉のボリュームがエグい！ご飯が無限に消えます",
-    content: "炊き込みご飯の素って具が少ないイメージでしたが、これは完全に裏切られました（良い意味で）。ゴロゴロの豚肉がどこをすくっても入ってきます。味がしっかり濃いめでパンチが効いているので、ご飯が無限に進む危険な食べ物です。休日の前の日の夜に、ビールと一緒に流し込むのが個人的な大正解でした。"
+    title: "肉のボリュームに圧倒されました！ご飯が無限に消えます",
+    content: "ゴロゴロの豚肉が食欲をそそります。味がしっかり濃いめでパンチが効いているので、ご飯が無限に進む食べ物です。"
   },
   {
     rating: 4,
-    title: "美味しいですが、匂いには注意！（笑）",
-    content: "夫が二郎系好きなので買ってみました。我が家は少しあっさりめに食べたかったので3合のお米で炊きましたが、ちょうど良い濃さで美味しくいただけました。豚の旨味がご飯に染み込んでいて家族にも好評でしたが、炊飯中の部屋の匂いと、炊飯器へのニンニクの匂い残りは結構凄いです。週末専用にするか、食べ終わったらすぐに炊飯器をお手入れすることをおすすめします。"
+    title: "美味しい！",
+    content: "少しあっさりめに食べたかったので3合のお米で炊きましたが、ちょうど良い濃さで美味しくいただけました。"
   },
   {
     rating: 5,
     title: "冷凍ストックのスタメン入り",
-    content: "炊きたても美味しいですが、多めに炊いておにぎりにして冷凍しています。レンジでチンするだけで、いつでもあのジャンクな味が食べられるのは本当にありがたい。マヨネーズを少しつけて食べる「悪魔のおにぎり」アレンジにハマっています。"
+    content: "炊きたても美味しいですが、多めに炊いておにぎりにして冷凍しています。レンジでチンするだけで、いつでもあのジャンクな味が食べられるのは本当にありがたい。"
   },
   {
     rating: 5,
     title: "キャンプ飯の主役に大抜擢！外で食べる背徳感がヤバい",
-    content: "グループキャンプに持参し、ダッチオーブンで炊いてみました。蓋を開けた瞬間のニンニク醤油の香りで、仲間全員のテンションが最高潮に！家だと炊飯器への匂い移りが気になりますが、外なら全く問題なし。炭火で軽く炙ったチャーシューを乗せたら、どんな高級肉より盛り上がりました。アウトドアとの相性抜群です。"
+    content: "ダッチオーブンで炊いてみました。蓋を開けた瞬間のニンニク醤油の香りで、キャンプでとても盛り上がりました。"
   },
   {
     rating: 4,
     title: "ガッツリ好きにはたまらない。",
-    content: "話題になっていたので購入。基本の2合で炊いてみましたが、味が濃く、脂も濃厚と感じました。入っていた150gのチャーシューのクオリティも本物で、本当にホロホロで美味しかったです。翌日、残ったご飯に大量の茹でキャベツを混ぜてお茶漬け風にしたらサラッと食べられました。次回は3合で炊こうと思います。"
+    content: "基本の2合で炊いてみましたが、味が濃く、脂も濃厚と感じました。入っていた150gのチャーシューのクオリティも本物で、本当にホロホロで美味しかったです。"
   },
   {
     rating: 5,
-    title: "金曜の夜、疲れを癒やす最高のご褒美スパイス",
-    content: "仕事が遅く終わり、お店（二郎）に行く気力はないけど無性にあの味が食べたい…という時に重宝しています。お米と素を入れてスイッチを押すだけなので、シャワーを浴びている間に完成する手軽さが最高。生卵と刻みネギを落としてかきこむと、一週間の疲れが吹き飛びます。冷凍庫にストックがないと不安になるレベルです。"
+    title: "金曜の夜、疲れを癒やす最高のご褒美",
+    content: "お米と素を入れてスイッチを押すだけなので、シャワーを浴びている間に完成する手軽さが最高。生卵と刻みネギを落としてかきこむと、一週間の疲れが吹き飛びます。"
   },
   {
-    rating: 4,
-    title: "おかず不要！高校生の息子たちが無言でドカ食いします",
-    content: "炊き込みご飯の素としては少しお高めかな？と思いましたが、150gも立派なチャーシューが入っているので、実質これだけでメインディッシュになります。他に肉のおかずを作らなくて済むので、結果的にコスパが良く時短にもなります。炊飯器を開けた瞬間に息子たちが群がってきて、あっという間に3合が消えました（笑）。"
+    rating: 5,
+    title: "リピート確定！",
+    content: "150gも立派なチャーシューが入っているので、毎日のご飯が特別なものに変わります。おかずが不要なほどのボリュームで、家族全員大満足です。"
   }
 ]
 
@@ -79,22 +79,22 @@ export function ReviewsSection() {
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="bg-gray-800/50 backdrop-blur rounded-xl p-6 border border-gray-700 hover:border-amber-500/50 transition-colors"
+              className="bg-gray-800/50 backdrop-blur rounded-xl p-4 border border-gray-700 hover:border-amber-500/50 transition-colors"
             >
               {/* Header with avatar and rating */}
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 border-2 border-amber-500">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 border-2 border-amber-500">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/customerdansei-RXWkunCX4dYpMmzBFU467VnBCFJFkk.jpg"
                     alt="お客様"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={40}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="flex-1">
                   <StarRating rating={review.rating} />
-                  <h3 className="text-amber-400 font-bold mt-2 text-sm md:text-base leading-tight">
+                  <h3 className="text-amber-400 font-bold mt-1 text-sm leading-tight">
                     {review.title}
                   </h3>
                 </div>
