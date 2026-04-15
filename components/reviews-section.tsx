@@ -101,7 +101,7 @@ export function ReviewsSection() {
               </div>
 
               {/* Review content */}
-              <p className="text-gray-300 text-xs leading-relaxed">
+              <p className="text-gray-300 text-sm leading-relaxed">
                 {review.content}
               </p>
             </div>
