@@ -26,8 +26,8 @@ export function ShippingSection() {
           />
         </div>
 
-        {/* 送料無料・即日発送バナー横並び */}
-        <div className="grid grid-cols-2 gap-4 max-w-3xl mx-auto">
+        {/* 送料無料・即日発送バナー：スマホは縦1列、PCは横2列 */}
+        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-4 md:max-w-3xl md:mx-auto gap-4">
           {/* 送料無料バナー */}
           <div className="relative w-full">
             <Image
@@ -35,7 +35,7 @@ export function ShippingSection() {
               alt="送料無料 - 沖縄・離島地域除く"
               width={400}
               height={150}
-              className="w-full h-auto rounded-lg"
+              className="w-full h-auto md:rounded-lg"
             />
           </div>
 
@@ -46,7 +46,7 @@ export function ShippingSection() {
               alt="14時までのご注文で即日発送 - 12月31日-1月1日は発送をお休みさせて頂いております。急な欠品・SALE等でまれに即日発送できない場合があります。"
               width={400}
               height={150}
-              className="w-full h-auto rounded-lg"
+              className="w-full h-auto md:rounded-lg"
             />
           </div>
         </div>
