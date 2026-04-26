@@ -46,7 +46,7 @@ export function PurchaseSection() {
         </div>
 
         {/* Purchase Buttons */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto items-stretch">
           {/* Yahoo */}
           <a
             href="https://store.shopping.yahoo.co.jp/aizubrandhall/4571318635247.html"
@@ -102,8 +102,8 @@ export function PurchaseSection() {
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyAmazon-pZqZL58v1PHhI6H488EfZgGNA7zX3M.png"
               alt="Amazonで購入"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               className="w-full h-auto"
             />
             <div className="mt-3 text-center text-gray-800 text-xs leading-relaxed">
