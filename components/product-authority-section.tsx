@@ -15,7 +15,7 @@ export function ProductAuthoritySection() {
         </div>
 
         {/* Retort Images - Side by side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-12 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-12">
           {/* Retort BUTA 1位 */}
           <div className="flex justify-center">
             <Image
@@ -23,7 +23,7 @@ export function ProductAuthoritySection() {
               alt="Yahoo!ショッピング レトルトBUTA1位獲得"
               width={800}
               height={800}
-              className="w-full h-auto rounded-lg"
+              className="w-full md:w-[90%] h-auto rounded-lg"
             />
           </div>
 
@@ -34,7 +34,7 @@ export function ProductAuthoritySection() {
               alt="Yahoo!ショッピング レトルトバラ3位獲得"
               width={800}
               height={800}
-              className="w-full h-auto rounded-lg"
+              className="w-full md:w-[90%] h-auto rounded-lg"
             />
           </div>
         </div>
@@ -44,9 +44,9 @@ export function ProductAuthoritySection() {
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4571318635247-ELoxLxtvyE6rV9YjwHl8vRRIZQcVCE.jpg"
             alt="悪魔のBUTAめし 2個セット"
-            width={600}
-            height={600}
-            className="w-full md:w-[80%] h-auto rounded-lg"
+            width={1200}
+            height={1200}
+            className="w-full md:w-[90%] h-auto rounded-lg"
           />
         </div>
       </div>
