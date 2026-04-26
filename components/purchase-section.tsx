@@ -108,7 +108,8 @@ export function PurchaseSection() {
             />
             <div className="mt-3 text-center text-gray-800 text-xs leading-relaxed">
               <p className="font-bold text-sm mb-1">Amazon</p>
-              <p>世界最大のショッピングモールでのお買い物はこちら</p>
+              <p>Amazonポイントが使える世界最大のショッピングモールでのお買い物はこちら</p>
+              <p className="text-red-600 font-bold mt-1">初めて当店をご利用のお客様に300円クーポン進呈中!</p>
             </div>
           </a>
         </div>
