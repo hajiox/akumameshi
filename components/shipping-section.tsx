@@ -5,12 +5,12 @@ export function ShippingSection() {
     <section className="bg-black py-6">
       <div className="max-w-6xl mx-auto px-4 space-y-6">
         {/* 14時までのご注文で即日発送画像 - 上に配置 */}
-        <div className="relative w-full max-w-6xl mx-auto">
+        <div className="relative w-full max-w-sm mx-auto">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14%E6%99%82%E3%81%BE%E3%81%A7%E5%BD%93%E6%97%A5%E7%99%BA%E9%80%81_202604071538.jpeg_202604080913%20%281%29-RTQgVmiaDHF8EuqxCQSQIszu8ypDjM.jpeg"
             alt="悪魔のBUTAめし - 14時までのご注文で即日発送"
-            width={1200}
-            height={1200}
+            width={400}
+            height={150}
             className="w-full h-auto rounded-lg"
           />
         </div>
@@ -27,7 +27,7 @@ export function ShippingSection() {
         </div>
 
         {/* 送料無料・即日発送バナー：スマホは縦1列、PCは横2列 */}
-        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-4 md:max-w-3xl md:mx-auto gap-4">
+        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-8 md:max-w-3xl md:mx-auto gap-8">
           {/* 送料無料バナー */}
           <div className="relative w-full">
             <Image
