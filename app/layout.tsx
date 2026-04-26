@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Noto_Sans_JP } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { GoogleAnalytics } from '@/components/google-analytics'
+import { MetaPixel } from '@/components/meta-pixel'
 import './globals.css'
 
 const notoSansJP = Noto_Sans_JP({ 
@@ -76,6 +77,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${notoSansJP.variable} font-sans antialiased`}>
         <GoogleAnalytics />
+        <MetaPixel />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
