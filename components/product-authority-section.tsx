@@ -3,9 +3,9 @@ import Image from "next/image"
 export function ProductAuthoritySection() {
   return (
     <section className="bg-black py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto">
         {/* Title */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
             ランキングを獲得した自社製造
           </h2>
@@ -15,14 +15,14 @@ export function ProductAuthoritySection() {
         </div>
 
         {/* Retort Images - Side by side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-4 md:px-4 gap-4 mb-12">
           {/* Retort BUTA 1位 */}
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88BUTA1%E4%BD%8D-mNb3ELuKCgtmtNnIJYADK74SjCnCuN.jpg"
             alt="Yahoo!ショッピング レトルトBUTA1位獲得"
             width={800}
             height={800}
-            className="w-full h-auto rounded-lg"
+            className="w-full md:w-auto h-auto md:rounded-lg"
           />
 
           {/* Retort Bara 3位 */}
@@ -31,12 +31,12 @@ export function ProductAuthoritySection() {
             alt="Yahoo!ショッピング レトルトバラ3位獲得"
             width={800}
             height={800}
-            className="w-full h-auto rounded-lg"
+            className="w-full md:w-auto h-auto md:rounded-lg"
           />
         </div>
 
         {/* Product Package */}
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-8 px-4">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4571318635247-ELoxLxtvyE6rV9YjwHl8vRRIZQcVCE.jpg"
             alt="悪魔のBUTAめし 2個セット"
