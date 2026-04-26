@@ -15,28 +15,24 @@ export function ProductAuthoritySection() {
         </div>
 
         {/* Retort Images - Side by side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           {/* Retort BUTA 1位 */}
-          <div className="flex justify-center">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88BUTA1%E4%BD%8D-mNb3ELuKCgtmtNnIJYADK74SjCnCuN.jpg"
-              alt="Yahoo!ショッピング レトルトBUTA1位獲得"
-              width={800}
-              height={800}
-              className="w-full md:w-[90%] h-auto rounded-lg"
-            />
-          </div>
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88BUTA1%E4%BD%8D-mNb3ELuKCgtmtNnIJYADK74SjCnCuN.jpg"
+            alt="Yahoo!ショッピング レトルトBUTA1位獲得"
+            width={800}
+            height={800}
+            className="w-full h-auto rounded-lg"
+          />
 
           {/* Retort Bara 3位 */}
-          <div className="flex justify-center">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88%E3%83%90%E3%83%A93%E4%BD%8D-qD5pVfhHuAh3RZjytX654cqmfCYLvv.jpg"
-              alt="Yahoo!ショッピング レトルトバラ3位獲得"
-              width={800}
-              height={800}
-              className="w-full md:w-[90%] h-auto rounded-lg"
-            />
-          </div>
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88%E3%83%90%E3%83%A93%E4%BD%8D-qD5pVfhHuAh3RZjytX654cqmfCYLvv.jpg"
+            alt="Yahoo!ショッピング レトルトバラ3位獲得"
+            width={800}
+            height={800}
+            className="w-full h-auto rounded-lg"
+          />
         </div>
 
         {/* Product Package */}
