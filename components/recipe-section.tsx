@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function RecipeSection() {
   return (
     <section className="bg-[#d4c4a8] py-12 md:py-16">
