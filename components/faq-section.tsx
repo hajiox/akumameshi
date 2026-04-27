@@ -34,10 +34,10 @@ export function FaqSection() {
   }
 
   return (
-    <section className="bg-[#1a1a1a] py-16">
-      <div className="max-w-4xl mx-auto px-4">
+    <section className="bg-[#1a1a1a] py-12 md:py-16">
+      <div className="max-w-4xl mx-auto px-4 flex flex-col gap-8">
         {/* Section Title */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
             <span className="text-amber-500">FAQ</span>
           </h2>
