@@ -64,10 +64,10 @@ function StarRating({ rating }: { rating: number }) {
 
 export function ReviewsSection() {
   return (
-    <section className="bg-gradient-to-b from-gray-900 to-black py-16">
-      <div className="max-w-5xl mx-auto px-4">
+    <section className="bg-gradient-to-b from-gray-900 to-black py-12 md:py-16">
+      <div className="max-w-5xl mx-auto px-4 flex flex-col gap-8">
         {/* Section Title */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
             <span>お客様の声</span>
           </h2>

@@ -27,10 +27,10 @@ function handleMallClick(e: React.MouseEvent<HTMLAnchorElement>, url: string) {
 
 export function PurchaseSection() {
   return (
-    <section id="purchase" className="bg-gradient-to-b from-gray-900 to-black py-16">
-      <div className="max-w-4xl mx-auto px-4">
+    <section id="purchase" className="bg-gradient-to-b from-gray-900 to-black py-12 md:py-16">
+      <div className="max-w-4xl mx-auto px-4 flex flex-col gap-8">
         {/* Section Title */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
             <span>ご購入はこちら</span>
           </h2>
