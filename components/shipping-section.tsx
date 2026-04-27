@@ -3,7 +3,7 @@ import Image from "next/image"
 export function ShippingSection() {
   return (
     <section className="bg-black py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col gap-12 pt-4">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col gap-12 pt-8">
         {/* 14時までのご注文で即日発送画像 - 上に配置 */}
         <div className="flex justify-center">
           <Image
