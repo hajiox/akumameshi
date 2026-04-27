@@ -36,7 +36,7 @@ export function ProductAuthoritySection() {
         </div>
 
         {/* Product Package */}
-        <div className="flex justify-center pb-16">
+        <div className="flex justify-center">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4571318635247-ELoxLxtvyE6rV9YjwHl8vRRIZQcVCE.jpg"
             alt="悪魔のBUTAめし 2個セット"
