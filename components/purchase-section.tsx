@@ -4,13 +4,16 @@ import Image from "next/image"
 
 function trackMallClick() {
   try {
-    if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+    if (typeof window !== 'undefined' && window.fbq) {
       window.fbq('trackCustom', 'MallClick', {
         product: 'butameshi',
       })
+      console.log('[v0] Meta MallClick fired', 'butameshi')
+    } else {
+      console.log('[v0] Meta MallClick: fbq not ready')
     }
-  } catch (_) {
-    // fbq未ロード時はエラーを無視
+  } catch (err) {
+    console.log('[v0] Meta MallClick error', err)
   }
 }
 
