@@ -2,15 +2,11 @@
 
 import Image from "next/image"
 
-type MallDestination = 'yahoo' | 'rakuten' | 'amazon'
-
-function trackMallClick(destination: MallDestination, url: string) {
+function trackMallClick() {
   try {
     if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
       window.fbq('trackCustom', 'MallClick', {
         product: 'butameshi',
-        destination,
-        url,
       })
     }
   } catch (_) {
@@ -18,13 +14,9 @@ function trackMallClick(destination: MallDestination, url: string) {
   }
 }
 
-function handleMallClick(
-  e: React.MouseEvent<HTMLAnchorElement>,
-  destination: MallDestination,
-  url: string
-) {
+function handleMallClick(e: React.MouseEvent<HTMLAnchorElement>, url: string) {
   e.preventDefault()
-  trackMallClick(destination, url)
+  trackMallClick()
   setTimeout(() => {
     window.open(url, '_blank', 'noopener,noreferrer')
   }, 300)
@@ -53,7 +45,7 @@ export function PurchaseSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[80%] md:mx-auto mx-auto"
-            onClick={(e) => handleMallClick(e, 'yahoo', 'https://store.shopping.yahoo.co.jp/aizubrandhall/4571318635247.html')}
+            onClick={(e) => handleMallClick(e, 'https://store.shopping.yahoo.co.jp/aizubrandhall/4571318635247.html')}
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyyahoo-KmL0yszRmx203LjFRJo1wy4m5m4esP.png"
@@ -75,7 +67,7 @@ export function PurchaseSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[80%] md:mx-auto mx-auto"
-            onClick={(e) => handleMallClick(e, 'rakuten', 'https://item.rakuten.co.jp/aizubrandhall/4571318635247/')}
+            onClick={(e) => handleMallClick(e, 'https://item.rakuten.co.jp/aizubrandhall/4571318635247/')}
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyrakutenn-TUtoGDzEBNh1kKGVO2ceuwOhtTzJ9S.png"
@@ -97,7 +89,7 @@ export function PurchaseSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[80%] md:mx-auto mx-auto"
-            onClick={(e) => handleMallClick(e, 'amazon', 'https://www.amazon.co.jp/dp/B0GWCVHS8N')}
+            onClick={(e) => handleMallClick(e, 'https://www.amazon.co.jp/dp/B0GWCVHS8N')}
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyAmazon-pZqZL58v1PHhI6H488EfZgGNA7zX3M.png"
