@@ -3,7 +3,7 @@ import Image from "next/image"
 export function ProductAuthoritySection() {
   return (
     <section className="bg-black py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col gap-6">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col gap-12">
         {/* Title */}
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
