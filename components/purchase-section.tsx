@@ -2,21 +2,13 @@
 
 import Image from "next/image"
 
-function handleMallClick(mall: string) {
+function handleMallClick() {
   try {
     if (typeof window !== 'undefined' && window.fbq) {
       window.fbq('trackCustom', 'MallClick', {
         product: 'butameshi',
       })
       console.log('[v0] Meta MallClick fired', 'butameshi')
-    }
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'click_purchase', {
-        event_category: 'ecommerce',
-        event_label: mall,
-        currency: 'JPY'
-      })
-      console.log('[v0] GA click_purchase fired', mall)
     }
   } catch (err) {
     console.log('[v0] Tracking error', err)
@@ -46,7 +38,7 @@ export function PurchaseSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[80%] md:mx-auto mx-auto"
-            onClick={() => handleMallClick('yahoo')}
+            onClick={handleMallClick}
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyyahoo-KmL0yszRmx203LjFRJo1wy4m5m4esP.png"
@@ -68,7 +60,7 @@ export function PurchaseSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[80%] md:mx-auto mx-auto"
-            onClick={() => handleMallClick('rakuten')}
+            onClick={handleMallClick}
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyrakutenn-TUtoGDzEBNh1kKGVO2ceuwOhtTzJ9S.png"
@@ -90,7 +82,7 @@ export function PurchaseSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-xl p-4 hover:scale-105 transition-transform shadow-lg hover:shadow-amber-500/20 w-[70%] md:w-[80%] md:mx-auto mx-auto"
-            onClick={() => handleMallClick('amazon')}
+            onClick={handleMallClick}
           >
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyAmazon-pZqZL58v1PHhI6H488EfZgGNA7zX3M.png"
