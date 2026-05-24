@@ -48,34 +48,25 @@ export function ProductPackageSection() {
 
 export function CookingOfferSection() {
   return (
-    <section className="bg-black py-10 md:py-14">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="grid items-center gap-6 md:grid-cols-[1.15fr_0.85fr]">
-          <Image
-            src="/images/butameshi-cooking.jpg"
-            alt="悪魔のBUTAめし 盛り付け例"
-            width={1075}
-            height={717}
-            className="w-full h-auto rounded-lg"
-          />
-          <div className="rounded-lg border border-amber-500/35 bg-[#120b08] px-5 py-6 text-center md:px-7 md:py-8">
-            <p className="text-2xl md:text-3xl font-black leading-tight text-white">
-              二郎インスパイア
-              <br />
-              悪魔のBUTAめし
-            </p>
-            <p className="mt-4 text-lg md:text-xl font-bold leading-relaxed text-amber-300">
-              2個セット
-              <br />
-              <span className="text-base md:text-lg">（1個で2～3人前）</span>
-            </p>
-            <p className="mt-4 text-2xl md:text-3xl font-black text-red-500">
-              2,380円
-            </p>
-            <p className="mt-1 text-base md:text-lg font-bold text-white">
-              （税・送料込）
-            </p>
-          </div>
+    <section className="bg-white py-12 md:py-16">
+      <div className="max-w-5xl mx-auto px-4 text-center">
+        <Image
+          src="/images/butameshi-cooking.jpg"
+          alt="悪魔のBUTAめし 盛り付け例"
+          width={1075}
+          height={717}
+          className="mx-auto w-full max-w-[820px] h-auto rounded shadow-md"
+        />
+        <div className="mt-7 font-bold leading-tight text-gray-950">
+          <p className="text-2xl md:text-3xl">
+            二郎インスパイア 悪魔のBUTAめし
+          </p>
+          <p className="mt-2 text-xl md:text-2xl">
+            2個セット（1個で2～3人前）
+          </p>
+          <p className="mt-5 text-2xl md:text-3xl text-red-700">
+            2,380円（税・送料込）
+          </p>
         </div>
       </div>
     </section>
