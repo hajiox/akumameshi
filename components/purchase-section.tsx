@@ -50,7 +50,10 @@ export function PurchaseSection() {
             <div className="mt-3 text-center text-gray-800 text-xs leading-relaxed">
               <p className="font-bold text-sm mb-1">Yahoo!ショッピング</p>
               <p>PayPayポイントが貯まる使えるショッピングモールはこちら</p>
-              <p className="text-red-600 font-bold mt-1">初めて当店をご利用のお客様に300円クーポン進呈中!</p>
+              <p className="mx-auto mt-3 inline-flex w-full max-w-[280px] flex-col items-center justify-center rounded border border-red-300 bg-white px-3 py-2.5 text-center font-sans text-[0.82rem] font-bold leading-snug text-red-700 shadow-sm">
+  <span>初めて当店をご利用のお客様に</span>
+  <span className="mt-0.5 text-[0.95rem] text-red-800">300円クーポン進呈中!</span>
+</p>
             </div>
           </a>
 
@@ -72,7 +75,10 @@ export function PurchaseSection() {
             <div className="mt-3 text-center text-gray-800 text-xs leading-relaxed">
               <p className="font-bold text-sm mb-1">楽天市場</p>
               <p>楽天ポイントが使える国内最大級のショッピングモールはこちら</p>
-              <p className="text-red-600 font-bold mt-1">初めて当店をご利用のお客様に300円クーポン進呈中!</p>
+              <p className="mx-auto mt-3 inline-flex w-full max-w-[280px] flex-col items-center justify-center rounded border border-red-300 bg-white px-3 py-2.5 text-center font-sans text-[0.82rem] font-bold leading-snug text-red-700 shadow-sm">
+  <span>初めて当店をご利用のお客様に</span>
+  <span className="mt-0.5 text-[0.95rem] text-red-800">300円クーポン進呈中!</span>
+</p>
             </div>
           </a>
 
