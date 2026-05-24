@@ -5,7 +5,7 @@ import { HeroSection } from "@/components/hero-section"
 import { FeatureSection1 } from "@/components/feature-section-1"
 import { FeatureSection2 } from "@/components/feature-section-2"
 import { RecipeSection } from "@/components/recipe-section"
-import { ProductAuthoritySection, ThirdPlaceRankingSection } from "@/components/product-authority-section"
+import { ProductAuthoritySection, ProductPackageSection } from "@/components/product-authority-section"
 import { ShippingSection } from "@/components/shipping-section"
 import { ReviewsSection } from "@/components/reviews-section"
 import { FaqSection } from "@/components/faq-section"
@@ -24,7 +24,7 @@ export default function Home() {
         <ShippingSection />
         <ReviewsSection />
         <FaqSection />
-        <ThirdPlaceRankingSection />
+        <ProductPackageSection />
         <PurchaseSection />
       </main>
       <Footer />

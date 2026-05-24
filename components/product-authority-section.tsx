@@ -25,31 +25,21 @@ export function ProductAuthoritySection() {
           />
         </div>
 
-        {/* Product Package */}
-        <div className="flex justify-center">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4571318635247-ELoxLxtvyE6rV9YjwHl8vRRIZQcVCE.jpg"
-            alt="悪魔のBUTAめし 2個セット"
-            width={1200}
-            height={1200}
-            className="w-full md:w-[90%] h-auto rounded-lg"
-          />
-        </div>
       </div>
     </section>
   )
 }
 
-export function ThirdPlaceRankingSection() {
+export function ProductPackageSection() {
   return (
-    <section id="ranking-third" className="bg-black pt-10 pb-8 md:pt-12 md:pb-10">
-      <div className="max-w-5xl mx-auto px-4">
+    <section className="bg-black pt-10 pb-8 md:pt-12 md:pb-10">
+      <div className="max-w-6xl mx-auto px-4 flex justify-center">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88%E3%83%90%E3%83%A93%E4%BD%8D-qD5pVfhHuAh3RZjytX654cqmfCYLvv.jpg"
-          alt="Yahoo!ショッピング レトルトバラ3位獲得"
-          width={1000}
-          height={670}
-          className="mx-auto w-full max-w-[820px] h-auto rounded-lg"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4571318635247-ELoxLxtvyE6rV9YjwHl8vRRIZQcVCE.jpg"
+          alt="悪魔のBUTAめし 2個セット"
+          width={1200}
+          height={1200}
+          className="w-full md:w-[90%] h-auto rounded-lg"
         />
       </div>
     </section>
