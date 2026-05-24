@@ -24,9 +24,6 @@ export function PurchaseSection() {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             <span>ご購入はこちら</span>
           </h2>
-          <p className="text-xl md:text-2xl font-bold text-red-700 mb-8">
-            <span>2個セット  2,380円（税込・送料込）</span>
-          </p>
         </div>
 
         {/* Purchase Buttons */}
