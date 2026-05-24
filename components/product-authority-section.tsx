@@ -14,24 +14,14 @@ export function ProductAuthoritySection() {
           </p>
         </div>
 
-        {/* Retort Images - Side by side */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="flex justify-center">
           {/* Retort BUTA 1位 */}
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88BUTA1%E4%BD%8D-mNb3ELuKCgtmtNnIJYADK74SjCnCuN.jpg"
             alt="Yahoo!ショッピング レトルトBUTA1位獲得"
             width={800}
             height={800}
-            className="w-full h-auto rounded-lg"
-          />
-
-          {/* Retort Bara 3位 */}
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88%E3%83%90%E3%83%A93%E4%BD%8D-qD5pVfhHuAh3RZjytX654cqmfCYLvv.jpg"
-            alt="Yahoo!ショッピング レトルトバラ3位獲得"
-            width={800}
-            height={800}
-            className="w-full h-auto rounded-lg"
+            className="w-full max-w-2xl h-auto rounded-lg"
           />
         </div>
 
@@ -45,6 +35,22 @@ export function ProductAuthoritySection() {
             className="w-full md:w-[90%] h-auto rounded-lg"
           />
         </div>
+      </div>
+    </section>
+  )
+}
+
+export function ThirdPlaceRankingSection() {
+  return (
+    <section id="ranking-third" className="bg-black pt-10 pb-8 md:pt-12 md:pb-10">
+      <div className="max-w-5xl mx-auto px-4">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Yahoo%E3%83%AC%E3%83%88%E3%83%AB%E3%83%88%E3%83%90%E3%83%A93%E4%BD%8D-qD5pVfhHuAh3RZjytX654cqmfCYLvv.jpg"
+          alt="Yahoo!ショッピング レトルトバラ3位獲得"
+          width={1000}
+          height={670}
+          className="mx-auto w-full max-w-[820px] h-auto rounded-lg"
+        />
       </div>
     </section>
   )
