@@ -34,9 +34,10 @@ export const metadata: Metadata = {
     images: [
       {
         url: OGP_IMAGE,
-        width: 1200,
-        height: 630,
+        width: 1217,
+        height: 647,
         alt: '悪魔のBUTAめし - 二郎インスパイア×炊き込みご飯の素',
+        type: 'image/jpeg',
       },
     ],
     locale: 'ja_JP',
@@ -47,7 +48,14 @@ export const metadata: Metadata = {
     creator: '@Aizu_Brand_Kan',
     title: '悪魔のBUTAめし | 二郎インスパイア×炊き込みご飯 自社謹製チャーシュー150g',
     description: '二郎インスパイアの背徳的旨味をご飯でガッツリかきこむ！炊飯器で簡単完成。送料無料・即日発送。',
-    images: [OGP_IMAGE],
+    images: [
+      {
+        url: OGP_IMAGE,
+        alt: '悪魔のBUTAめし - 二郎インスパイア×炊き込みご飯の素',
+        width: 1217,
+        height: 647,
+      },
+    ],
   },
   icons: {
     icon: [
